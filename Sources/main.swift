@@ -18,6 +18,10 @@ ledGpio.value = 0
 // Read user input from keyboard and switch the LED on/off each time the user presses the return key
 print("Press return to switch the LED on/off. To quit type exit")
 while let userInput = readLine(strippingNewline: true), userInput != "exit" {
-    print("Switching LED")
+    print("Switching LED ON/OFF")
     ledGpio.value = ledGpio.value == 0 ? 1 : 0
 }
+
+
+
+
